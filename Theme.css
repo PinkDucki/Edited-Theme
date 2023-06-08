@@ -1,0 +1,179 @@
+:root {
+  /*
+    Theme Background
+  */
+  --theme-background-image: url(https://cdn.discordapp.com/attachments/921391690802159636/1096400840325083166/05ce89eaf7e5aab9425a5f09171c62340f80cd22_hq-14012921.jpg);
+
+  /*
+    Main Theme Color
+  */
+  --main-theme-color: rgb(255, 151, 226);
+
+  /*
+    Main Theme Transparency
+  */
+  --theme-transparency: rgba(0, 0, 0, 0.7);
+
+  /*
+    Home Icon Image
+  */
+  --home-icon-image: url(https://cdn.discordapp.com/attachments/921391690802159636/934399408064323584/download_5.png);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 100%;
+
+  /*
+    Server Listing Width
+    Single Column:  62px
+    Double Column:  126px
+    Triple Column:  184px
+    Quad Column:    242px
+  */
+  --server-listing-width: 126px;
+
+  /*
+    Font Size
+  */
+  --font-size: 100%;
+
+  /*
+    Mention colors
+  */
+  --mention-color: rgba(255, 175, 45, 0.05);
+  --mention-sider: rgb(255, 185, 75);
+  --mention-hover-color: rgba(75, 75, 75, 0.25);
+
+  /*
+    Server category hover color
+  */
+  --category-hover-color: rgb(85, 255, 175);
+
+  /*
+    Change the unread server animation.
+    Replace it with "none" in order to remove any animations and use the main color instead
+  */
+  --unread-server-animation: rainbow;
+
+  /*
+    Video / Screen share buttons
+  */
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+  /*
+    Role Title Color
+  */
+  --member-listing-role-color: var(--main-theme-color);
+
+  /*
+    Small User Popout
+  */
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --small-user-popout-background-image-position: center;
+
+  /*
+    Big User Popout
+  */
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --big-user-popout-background-image-position: center;
+
+  /*
+    Code Markup
+  */
+  --code-markup-background-color: rgba(0, 0, 0, 0.6);
+  --code-markup-border: 1px solid transparent;
+
+  /*
+    Message Box Transparency
+  */
+  --message-box-transparency: rgba(0, 0, 0, 0.6);
+
+  /*
+    Embed Background Transparency
+  */
+  --embed-background-transparency: rgba(0, 0, 0, 0.5);
+
+  /*
+    Message Hover Buttons
+  */
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
+
+  /*
+    Context Menu Transparency
+  */
+  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+
+  /*
+    Add Server / Discovery Icon
+  */
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: #43b581;
+
+  /*
+    Channel Limit Number Color
+  */
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
+  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+
+  /*
+    Scrollbar Colors
+  */
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
+
+  /*
+    Unread Message Divider
+  */
+  --unread-message-divider-color: #6ce9ff;
+  --unread-message-divider-font-color: #000000;
+
+  /*
+    New Messages Bar Color
+  */
+  --new-messages-bar-background-color: #6ce9ff;
+  --new-messages-bar-font-color: #000000;
+
+  /*
+    Emoji Menu
+  */
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.65);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-bottom-bar-background-color: rgb(0, 0, 0, 0);
+  --emoji-menu-search-bar-background-color: rgba(247, 161, 255, 0.25);
+
+  /*
+    Message Search
+  */
+  --message-search-menu-background-color: rgba(0, 0, 0, 0.75);
+  --message-search-container-background-color: rgba(0, 0, 0, 0);
+  --message-search-result-background-color: rgba(0, 0, 0, 0);
+
+  /*
+    Channel colors
+  */
+  --text-voice-channel-color: rgb(253, 113, 255);
+  --text-voice-channel-hover-color: #82ff95;
+  --text-voice-channel-selected-text-color: #82ff95;
+  --unread-text-channel-color: #56ffff;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+
+  /*
+    Reactions
+  */
+  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+}
