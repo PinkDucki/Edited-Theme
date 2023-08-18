@@ -11,7 +11,7 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://media.discordapp.net/attachments/921391690802159636/1142055973553442967/IMG_9076.jpg?width=477&height=675);
+  --theme-background-image: url(https://cdn.discordapp.com/attachments/921391690802159636/1142170705702686820/Untitled-1.png);
 
   /*
     Main Theme Color
@@ -21,7 +21,7 @@
   /*
     Main Theme Transparency
   */
-  --theme-transparency: rgba(0, 0, 0, 0.7);
+  --theme-transparency: rgba(0, 0, 0, 0.63);
 
   /*
     Home Icon Image
